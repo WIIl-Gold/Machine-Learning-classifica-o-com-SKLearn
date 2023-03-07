@@ -11,7 +11,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import precision_score
 from sklearn.metrics import f1_score
 
-dados = pd.read_csv(r"C:\Users\willi\Downloads\Customer-Churn.csv")
+dados = pd.read_csv(r"E:\Projetos\Machine-Learning-classifica-o-com-SKLearn\2. Machine Learning classificação por trás dos panos\Customer-Churn.csv")
 dados.head()
 
 traducao_dic = {'Sim': 1, 
